@@ -15,6 +15,11 @@
 		8497C3B71EC95B9E0056EDF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8497C3B51EC95B9E0056EDF2 /* LaunchScreen.storyboard */; };
 		8497C3C21EC95B9E0056EDF2 /* segment__Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8497C3C11EC95B9E0056EDF2 /* segment__Tests.m */; };
 		8497C3CD1EC95B9E0056EDF2 /* segment__UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8497C3CC1EC95B9E0056EDF2 /* segment__UITests.m */; };
+		8497C3E51EC95BB60056EDF2 /* BaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8497C3DC1EC95BB60056EDF2 /* BaseTableViewController.m */; };
+		8497C3E61EC95BB60056EDF2 /* HomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8497C3DE1EC95BB60056EDF2 /* HomePageViewController.m */; };
+		8497C3E71EC95BB60056EDF2 /* LeftTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8497C3E01EC95BB60056EDF2 /* LeftTableViewController.m */; };
+		8497C3E81EC95BB60056EDF2 /* MiddleTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8497C3E21EC95BB60056EDF2 /* MiddleTableViewController.m */; };
+		8497C3E91EC95BB60056EDF2 /* RightTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8497C3E41EC95BB60056EDF2 /* RightTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,16 @@
 		8497C3C81EC95B9E0056EDF2 /* segment悬停UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "segment悬停UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8497C3CC1EC95B9E0056EDF2 /* segment__UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = segment__UITests.m; sourceTree = "<group>"; };
 		8497C3CE1EC95B9E0056EDF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8497C3DB1EC95BB60056EDF2 /* BaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewController.h; sourceTree = "<group>"; };
+		8497C3DC1EC95BB60056EDF2 /* BaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewController.m; sourceTree = "<group>"; };
+		8497C3DD1EC95BB60056EDF2 /* HomePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePageViewController.h; sourceTree = "<group>"; };
+		8497C3DE1EC95BB60056EDF2 /* HomePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePageViewController.m; sourceTree = "<group>"; };
+		8497C3DF1EC95BB60056EDF2 /* LeftTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftTableViewController.h; sourceTree = "<group>"; };
+		8497C3E01EC95BB60056EDF2 /* LeftTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftTableViewController.m; sourceTree = "<group>"; };
+		8497C3E11EC95BB60056EDF2 /* MiddleTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MiddleTableViewController.h; sourceTree = "<group>"; };
+		8497C3E21EC95BB60056EDF2 /* MiddleTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MiddleTableViewController.m; sourceTree = "<group>"; };
+		8497C3E31EC95BB60056EDF2 /* RightTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RightTableViewController.h; sourceTree = "<group>"; };
+		8497C3E41EC95BB60056EDF2 /* RightTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +116,7 @@
 		8497C3A61EC95B9E0056EDF2 /* segment悬停 */ = {
 			isa = PBXGroup;
 			children = (
+				8497C3DA1EC95BB60056EDF2 /* HomePage */,
 				8497C3AA1EC95B9E0056EDF2 /* AppDelegate.h */,
 				8497C3AB1EC95B9E0056EDF2 /* AppDelegate.m */,
 				8497C3AD1EC95B9E0056EDF2 /* ViewController.h */,
@@ -138,6 +154,23 @@
 				8497C3CE1EC95B9E0056EDF2 /* Info.plist */,
 			);
 			path = "segment悬停UITests";
+			sourceTree = "<group>";
+		};
+		8497C3DA1EC95BB60056EDF2 /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				8497C3DB1EC95BB60056EDF2 /* BaseTableViewController.h */,
+				8497C3DC1EC95BB60056EDF2 /* BaseTableViewController.m */,
+				8497C3DD1EC95BB60056EDF2 /* HomePageViewController.h */,
+				8497C3DE1EC95BB60056EDF2 /* HomePageViewController.m */,
+				8497C3DF1EC95BB60056EDF2 /* LeftTableViewController.h */,
+				8497C3E01EC95BB60056EDF2 /* LeftTableViewController.m */,
+				8497C3E11EC95BB60056EDF2 /* MiddleTableViewController.h */,
+				8497C3E21EC95BB60056EDF2 /* MiddleTableViewController.m */,
+				8497C3E31EC95BB60056EDF2 /* RightTableViewController.h */,
+				8497C3E41EC95BB60056EDF2 /* RightTableViewController.m */,
+			);
+			path = HomePage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,6 +308,11 @@
 			files = (
 				8497C3AF1EC95B9E0056EDF2 /* ViewController.m in Sources */,
 				8497C3AC1EC95B9E0056EDF2 /* AppDelegate.m in Sources */,
+				8497C3E91EC95BB60056EDF2 /* RightTableViewController.m in Sources */,
+				8497C3E61EC95BB60056EDF2 /* HomePageViewController.m in Sources */,
+				8497C3E51EC95BB60056EDF2 /* BaseTableViewController.m in Sources */,
+				8497C3E81EC95BB60056EDF2 /* MiddleTableViewController.m in Sources */,
+				8497C3E71EC95BB60056EDF2 /* LeftTableViewController.m in Sources */,
 				8497C3A91EC95B9E0056EDF2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

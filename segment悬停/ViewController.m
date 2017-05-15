@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "HomePage/HomePageViewController.h"
 @interface ViewController ()
 
 @end
@@ -19,6 +19,9 @@
     // Do any additional setup after loading the view, typically from a nib.
 }
 
+- (IBAction)push:(id)sender {
+    [self.navigationController pushViewController:[HomePageViewController new] animated:YES];
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
